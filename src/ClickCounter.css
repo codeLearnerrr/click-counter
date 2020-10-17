@@ -1,0 +1,16 @@
+.welcomeHeader{
+    text-align: center;
+}
+
+.clicksDisplay{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{ align-self: center;}
+
+#buttonIncrease{ width:80px; height: 80px; margin: 4px; border-radius: 50%; background-color: red; color: white; font-size: 50px;}
+#buttonDecrease{  width:80px; height: 80px; margin: 4px; border-radius: 50%; background-color: red; color: white; font-size: 50px; }
