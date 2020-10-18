@@ -9,8 +9,12 @@
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('./assets/icomoon/images/pexels-belle-co-402028.jpg') no-repeat center;
+    height: 100vh;
+    background-position: 50% 50%;
 }
-.buttons{ align-self: center; background-color: transparent;}
+.buttons{ align-self: center; }
 
-#buttonIncrease{  margin: 4px; border-radius: 50%; font-size: 50px; background: transparent;}
-#buttonDecrease{   margin: 4px; border-radius: 50%; font-size: 50px; background: transparent; }
+#buttonIncrease{  margin: 4px; font-size: 50px; background: transparent; border: none; color: red; outline: none;}
+#buttonDecrease{   margin: 4px; font-size: 50px; background: transparent; border: none; color: red; outline: none;}
