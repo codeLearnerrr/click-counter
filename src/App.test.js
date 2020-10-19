@@ -2,8 +2,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+const testedStrings = [['Welcome to the Click Counter App:'], ['The current clicks are 0']];
+
+test.each(testedStrings)('renders element ', (testedText) => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(getByText(testedText)).toBeInTheDocument();
 });

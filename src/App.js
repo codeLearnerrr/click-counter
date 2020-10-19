@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ClickCounter from './ClickCounter';
+import DisplayTitlesCountsAndButtons from './displayComponent/DisplayTitlesCountsAndButtons';
+
 function App() {
   return (
     <div>
-      <ClickCounter/>
+      <DisplayTitlesCountsAndButtons/>
     </div>
   );
 }
