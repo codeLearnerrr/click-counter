@@ -2,6 +2,8 @@
 
 # folders
 /assets
+/public
+
 # dependencies
 /node_modules
 /.pnp
